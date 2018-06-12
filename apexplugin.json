@@ -1,0 +1,33 @@
+{
+  "name" : "MT APEX Save Scroll Util",
+  "version" : "0.5",
+  "description" : "Oracle APEX Plugin to save and restore window scroll position using local storage",
+  "keywords" : ["scroll"],
+  "homepage" : "https://github.com/commi235/apex-save-scroll",
+  "bugs" : {
+    "url" : "https://github.com/commi235/apex-save-scroll/issues",
+    "email" : "moritz.klein@it-twins.de"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Moritz Klein",
+    "email" : "moritz.klein@it-twins.de",
+    "twitter" : "commi235"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/commi235/apex-save-scroll.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["4.2.0","5.0.0","5.1.0"],
+      "plugin" : {
+        "internalName" : "DE.IT-TWINS.APEX-SAVE-SCROLL",
+        "type" : "dynamic action",
+        "demo" : "tbd",
+        "previewImage" : "tbd"
+      }
+    }
+  }
+}
