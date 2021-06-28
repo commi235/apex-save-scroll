@@ -26,7 +26,7 @@ var apexScrollUtil = ( function ( $, storage, debug ) {
   };
 
   _pubMethods.clear = function () {
-    debug.trace( `Clearing sorage` );
+    debug.trace( `Clearing storage` );
     _myStorage.clear();
   };
 
